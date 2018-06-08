@@ -5,3 +5,40 @@ a {
 body {
     background-image: url(../bg.jpg);
 }
+
+#hero {
+    background: url(../images/rage-success.jpg);
+    background-size: 100% 331px;
+    height: 331px;
+}
+
+li {
+    font-size: 20px;
+}
+
+*:nth-of-type(even) {
+    font-family: Comic Sans MS;
+}
+
+#ads {
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#ads img {
+    max-width: 100%;
+}
+
+#visitor {
+    position: fixed;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+#visitor img {
+    width: 100%;
+}
